@@ -60,7 +60,7 @@ const SignUpPage = () => {
 									value={formData.name}
 									onChange={(e) => setFormData({ ...formData, name: e.target.value })}
 									className='block w-full px-3 py-2 pl-10 bg-[#3E2C1C] border border-[#A67B5B] rounded-md shadow-sm placeholder-[#D2B48C] text-white focus:outline-none focus:ring-[#D2B48C] focus:border-[#D2B48C] sm:text-sm'
-									placeholder='John Doe'
+									placeholder='your name'
 								/>
 							</div>
 						</div>

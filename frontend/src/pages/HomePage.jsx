@@ -3,7 +3,7 @@ import CategoryItem from "../components/CategoryItem";
 
 const categories = [
  { href:"/jeans" , name: " Jeans", imageUrl:"/jeans.png"},
- { href:"/tshirts" , name: " Tshirts", imageUrl:"/tshirts.png"},
+ { href:"/t-shirts" , name: " Tshirts", imageUrl:"/tshirts.png"},
  { href:"/shoes" , name: " Shoes", imageUrl:"/shoes.png"},
  { href:"/glasses" , name: " Glasses", imageUrl:"/glasses.png"},
  { href:"/jackets" , name: "Jackets", imageUrl:"/jackets.png"},

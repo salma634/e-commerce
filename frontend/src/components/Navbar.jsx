@@ -27,14 +27,18 @@ const Navbar = () => {
 						{user && (
 							<Link
 								to={"/cart"}
-								className='text-[#4B3621] hover:text-[#8B5E3C] transition duration-300 ease-in-out flex items-center'
+								className='relative group text-[#4B3621] hover:text-[#8B5E3C] transition duration-300 ease-in-out'
 							>
-								<ShoppingCart className='mr-1' size={20} />
+								<ShoppingCart className='inline-block mr-1 group-hover:text-[#8B5E3C]-400' size={20} />
 								<span className='hidden sm:inline'>Cart</span>
 								{cart.length > 0 && (
-									<span>{cart.length}</span>
+									<span
+										className='absolute -top-2 -left-2 bg-[#A97458] p-4 text-white rounded-full px-2 py-0.5 
+									text-xs group-hover:bg-gray-400 transition duration-300 ease-in-out'
+									>
+										{cart.length}
+									</span>
 								)}
-								
 							</Link>
 						)}
 
